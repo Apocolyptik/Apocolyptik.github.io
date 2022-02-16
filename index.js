@@ -15,6 +15,8 @@ const createRandomCreature = () => {
       species: options.species[getRandomInt(options.species.length)],
     };
   };
+  
+  const numCreatures = parseInt(prompt("How many creatures would you like? "));
 
   for (let i = 0; i < numCreatures; i++) {
     const creature = createRandomCreature();
