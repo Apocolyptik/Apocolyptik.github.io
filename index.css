@@ -21,6 +21,10 @@ body {
   color: #b74882;
 }
 
+.text {
+  max-width: 1600px;
+}
+
 #gen-btn {
   padding: 16px;
   font-size: 24px;
