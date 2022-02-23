@@ -40,7 +40,7 @@ const options = {
   "hard-working", "hardy", "harsh", "hateful", "haughty", "healthy", "hearty", "hedonistic", "helpful", "herioc", "hesitant", "honest", "honorable", "hostile", "humble", 
   "humorous", "hyperactive", "hypnotic", 
   //I
-  "idealistic", "ignorant", "illiterate", "imaginative", "imitative", "impartial", "impassive", "impatient", "impersonal", "impolite", "impractical", "impressionable", 
+  "idealistic", "ignorant", "imaginative", "imitative", "impartial", "impassive", "impatient", "impersonal", "impolite", "impractical", "impressionable", 
   "impressive", "imprudent", "impulsive", "inattentive", "inconsiderate", "inconsistent", "indecisive", "independent", "indiscreet", "individualistic", "indulgent", 
   "inert", "inflexible", "inhibited", "innovative", "insecure", "insensitive", "insightful", "insincere", "insulting", "intelligent", "intense", "intolerant", "intuitive", 
   "inventive", "irrational", "irresponsible", "irritable", 
@@ -67,7 +67,7 @@ const options = {
   "sadistic", "sage", "sanctimonious", "sane", "sarcastic", "scheming", "scholarly", "scornful", "secretive", "secure", "sedentary", "self-confident", "self-disciplined", 
   "self-centered", "self-conscious", "self-critical", "self-indulgent", "selfish", "selfless", "self-sufficent", "sensible", "sensitive", "sensual", "sentimental", "seraphic", 
   "serious", "shallow", "shrewd", "shy", "silly", "sincere", "skeptical", "skillful", "sly", "smooth", "sociable", "soft", "softheaded", "solemn", "solitary", "sophisticated", 
-  "sordid", "specialized", "spontaneous", "stable", "steely", "stern", "stiff", "stingy", "stoic", "straightforward", "strict", "strong", "strong-willed", "stubborn", "studious", 
+  "sordid", "spontaneous", "stable", "steely", "stern", "stiff", "stingy", "stoic", "straightforward", "strict", "strong", "strong-willed", "stubborn", "studious", 
   "stupid", "stylish", "suave", "subjective", "submissive", "subtle", "sullen", "superficial", "superstitious", "surly", "surprising", "suspicious", "sweet", "sympathetic", 
   //T
   "tactless", "tasteful", "tasteless", "teacherly", "tense", "thoughtful", "thoughtless", "tidy", "timid", "tolerant", "touchy", "tough", "transparent", "treacherous", 
@@ -89,7 +89,7 @@ const options = {
 
 const createRandomCreature = () => {
   return {
-    names: options.names[getRandomInt(options.names.length)],
+    names: options.names.selectUnique(2).join(" "),
     age: options.age[getRandomInt(options.age.length)],
     species: options.species[getRandomInt(options.species.length)],
     personalityTrait: options.personalityTrait[getRandomInt(options.personalityTrait.length)]

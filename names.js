@@ -1,4 +1,6 @@
-export let names = ["Ace", "Aegis", "Amber", "Amethyst", "Amore", "Apple", "Arctic", "Arid", "Armor", "Armored", "Arrow", "Art", "Astral", "Aura", "Aurora", "Autumn", "Azure", 
+import { Options } from "../modules/options.js";
+
+export let names = new Options(["Ace", "Aegis", "Amber", "Amethyst", "Amore", "Apple", "Arctic", "Arid", "Armor", "Armored", "Arrow", "Art", "Astral", "Aura", "Aurora", "Autumn", "Azure", 
   //B
   "Badge", "Ballet", "Banana", "Belle", "Berry", "Beryl", "Black", "Blade", "Blaze", "Blazing", "Blitz", "Blizzard", "Blood", "Bloom", "Blooming", "Blossom", "Blossoming", "Blue", 
   "Bolt", "Bolted", "Boreal", "Bouquet", "Bow", "Breeze", "Breezy", "Brew", "Bright", "Bronze", "Brook", "Brush", "Brushed", "Bubble", "Bubbly", "Burn", "Burst", "Button", 
@@ -43,4 +45,4 @@ export let names = ["Ace", "Aegis", "Amber", "Amethyst", "Amore", "Apple", "Arct
   "Waltz", "Water", "Watermelon", "Wave", "Weld", "White", "Wild", "Wind", "Windy", "Wing", "Winter", "Wish", "Wishful", "Yellow",
   //add later
   "Silken", "Songbird", "Serenade", "Brilliant", "Vinyl", "Scratch", "Toxic", "Tempest", "Petals", "Aloe", "Lotus", "Bobbin", "Butternut", "Squash", "Jubilee", "Meadow", 
-  "Brook", "Slice"]
+  "Brook", "Slice", "Buck", "Bucks", "Big", "Burnt", "Cheese", "Cream", "Creme", "Stellar", "Eclipse", "Pot", "Bong", "Weed", "Dancer"])
