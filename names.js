@@ -43,4 +43,4 @@ export let names = ["Ace", "Aegis", "Amber", "Amethyst", "Amore", "Apple", "Arct
   "Waltz", "Water", "Watermelon", "Wave", "Weld", "White", "Wild", "Wind", "Windy", "Wing", "Winter", "Wish", "Wishful", "Yellow",
   //add later
   "Silken", "Songbird", "Serenade", "Brilliant", "Vinyl", "Scratch", "Toxic", "Tempest", "Petals", "Aloe", "Lotus", "Bobbin", "Butternut", "Squash", "Jubilee", "Meadow", 
-  "Brook", "Slice"],
+  "Brook", "Slice"]
