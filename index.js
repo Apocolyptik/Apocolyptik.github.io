@@ -89,7 +89,7 @@ const options = {
 
 const createRandomCreature = () => {
   return {
-    names: options.age[getRandomInt(options.names.length)],
+    names: options.names[getRandomInt(options.names.length)],
     age: options.age[getRandomInt(options.age.length)],
     species: options.species[getRandomInt(options.species.length)],
     personalityTrait: options.personalityTrait[getRandomInt(options.personalityTrait.length)]
