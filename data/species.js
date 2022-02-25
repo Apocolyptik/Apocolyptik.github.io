@@ -1,0 +1,1 @@
+export const species = ["earth pony", "unicorn", "pegasus", "bat pony", "kirin", "seapony", "hippogriff", "zebra", "griffon", "changeling", "reformed changeling", "draconequus", "crystal pony"]
