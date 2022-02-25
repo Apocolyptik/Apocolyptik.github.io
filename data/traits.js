@@ -1,4 +1,4 @@
-export let personalityTrait = ["abrasive", "abrupt", "absentminded", "adaptable", "admirable", "adventurous", "affectionate", "aggressive,", "agreeable", "aimless", "alert", 
+export const traits = ["abrasive", "abrupt", "absentminded", "adaptable", "admirable", "adventurous", "affectionate", "aggressive,", "agreeable", "aimless", "alert", 
   "aloof", "ambitious", "amiable", "amicable", "amoral", "angry", "anxious", "apathetic", "arbitrary", "argumentative", "arrogant", "articulate", "asocial", "aspiring", 
   "assertive", "athletic", "authoritarian", 
   //B

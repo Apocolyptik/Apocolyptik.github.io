@@ -1,0 +1,1 @@
+export const ages = ["child", "adolescent", "adult", "elderly"];
