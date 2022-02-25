@@ -1,4 +1,4 @@
-import { names } from "./names.js";
+import { name } from "./names.js";
 import { personalityTrait } from "./personalityTrait.js";
 
 function getRandomInt(max) {
@@ -9,7 +9,7 @@ const text = document.getElementById("text");
 const button = document.getElementById("gen-btn");
 
 const options = {
-  names,
+  name,
   age: ["child", "adolescent", "adult", "elderly"],
   species: ["earth pony", "unicorn", "pegasus", "bat pony", "kirin", "seapony", "hippogriff", "zebra", "griffon", "changeling", "reformed changeling", "draconequus", "crystal pony"],
   //colorPalette: a WIP feature
@@ -26,7 +26,7 @@ const options = {
 
 const createRandomCreature = () => {
   return {
-    names: options.names.selectUnique(2).join(" "),
+    name: options.name.selectUnique(2).join(" "),
     age: options.age[getRandomInt(options.age.length)],
     species: options.species[getRandomInt(options.species.length)],
     personalityTrait: options.personalityTrait[getRandomInt(options.personalityTrait.length)]
@@ -35,7 +35,7 @@ const createRandomCreature = () => {
 
 button.addEventListener("click", () => {
   const creature = createRandomCreature();
-  text.innerText = `Your new character is called ${creature.names}. They are ${
+  text.innerText = `Your new character is called ${creature.name}. They are ${
     ["a", "e", "i", "o", "u"].includes(creature.age[0]) ? "an" : "a"
   } ${creature.age} ${creature.species}. Their personality can be described as ${creature.personalityTrait}.`;
 });
